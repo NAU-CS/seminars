@@ -1,7 +1,7 @@
 
-| Date        | Speaker       | Topic                                                   | Links                        |
-|-------------+---------------+---------------------------------------------------------+------------------------------|
-| 3 June 2019 | [[http://www.math.uwaterloo.ca/~rwoldfor/][Wayne Oldford]] | Interactive visualization for exploratory data analysis | Abstract [[file:2019-06-03-Oldford-data-viz/OldfordAbstract.pdf][PDF]] [[file:2019-06-03-Oldford-data-viz/OldfordAbstract.html][HTML]] [[file:2019-06-03-Oldford-data-viz/OldfordAbstract.Rmd][Rmd]] [[https://www.youtube.com/user/rwoldford/videos][videos]] |
+| Date/time/place                 | Speaker       | Topic                                                   | Links                        |
+|---------------------------------+---------------+---------------------------------------------------------+------------------------------|
+| 3 June 2019, 10:30am, SICCS 223 | [[http://www.math.uwaterloo.ca/~rwoldfor/][Wayne Oldford]] | Interactive visualization for exploratory data analysis | Abstract [[file:2019-06-03-Oldford-data-viz/OldfordAbstract.pdf][PDF]] [[file:2019-06-03-Oldford-data-viz/OldfordAbstract.html][HTML]] [[file:2019-06-03-Oldford-data-viz/OldfordAbstract.Rmd][Rmd]] [[https://www.youtube.com/user/rwoldford/videos][videos]] |
 
 
 
