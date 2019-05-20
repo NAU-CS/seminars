@@ -1,0 +1,47 @@
+---
+title: "Interactive visualization for exploratory data analysis"
+author: "Wayne Oldford,  University of Waterloo"
+graphics: yes
+output:
+  html_document: default
+  word_document: default
+  pdf_document: default
+institute: University of Waterloo
+header-includes:
+- \usepackage{graphicx}
+- \usepackage{color}
+- \usepackage{hyperref}
+- \usepackage{multimedia}
+- \PassOptionsToPackage{pdfmark}{hyperref}\RequirePackage{hyperref}
+- \newcommand{\given}{~\vline~}
+- \newcommand{\indep}{\bot\hspace{-.6em}\bot}
+- \newcommand{\notindep}{\bot\hspace{-.6em}\bot\hspace{-0.75em}/\hspace{.4em}}
+- \newcommand{\depend}{\Join}
+- \newcommand{\notdepend}{\Join\hspace{-0.9 em}/\hspace{.4em}}
+- \newcommand{\imply}{\Longrightarrow}
+- \newcommand{\notimply}{\Longrightarrow \hspace{-1.5em}/ \hspace{0.8em}}
+slide_level: 3
+fontsize: 9pt
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+set.seed(12314159)
+```
+
+With the rise in interest in recent years of all things "data science", there has been a concomitant growing popular interest in "data visualization".  While what "data science" means might depend upon "the eye of the beholder", the beholder's eye is the key to "data visualization".  In this talk, we take the data analyst to be the beholder. 
+
+This is not the case for much of popular data visualization, where the intended viewer is often another, a consumer of information curated for them by the analyst.  The curated form might be a traditional static presentation, or it might be one that is dynamic to some extent (e.g. anything from embedded animations to full blown visualizations responsive to tailored interactions pre-selected by the analyst).  Before such curation can begin, however, the data analyst must thoroughly understand the data, its common patterns and its unusual features.  Visualizations now are by and for the analyst.  They need to be powerful, flexible, and integrated into whatever analysis environment will be used to ultimately produce the curated form (e.g. `R`, `Python`, ...).  
+
+In this talk, we present a direct manipulation interactive visualization extension to `R`, called `loon` (yes, loon) designed for exploratory data analysis.  The design allows both direct manipulation and programmatic interaction by the analyst to make for more efficient exploration.  The bulk of the talk will be the presentation of numerous examples to illustrate both the design and use.  Should time permit, some novel interactive visualizations for the exploration of higher dimensional data will also be presented.
+
+Those interested are encouraged to install and explore the software before the talk. It may be downloaded following instructions at [https://great-northern-diver.github.io/loon/](https://great-northern-diver.github.io/loon/). 
+In `R` the current development version can be installed (using the `devtools` package) as
+
+```r 
+devtools::install_github("great-northern-diver/loon", subdir = "R")
+```
+Alternatively, the current release can be installed from `CRAN`
+```r
+install.packages("loon")
+```
